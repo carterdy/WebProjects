@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: "Verdana", Arial, sans-serif;
+}
+
+table {
+    margin: auto;
+}
+
+#topBar {
+    
+}
+
+#userBar {
+    display: inline-block;
+    float:right;
+    width: 20%;
+}
+
+#home {
+    display: inline-block; 
+    text-align: left;
+    float:left;
+}
+
+#bodyContent {
+    clear: both;
+    text-align: justify;
+}
+
+#profilePic {
+    float:left;
+}
+
+h4 {
+    float:right;
+}
+
+#userPic {
+    float:left;
+    margin-left:10%;
+}
+
+button {
+    float: left;
+    clear: left;
+    margin-left: 10%;
+}
+
+#userEmail {
+    text-align:center;
+    margin-right:10%;
+}
+
+#displayName {
+    text-align:center;
+    margin-right:10%;
+}
+
+#userDescription {
+    text-align:center;
+    border: thin solid black;
+    width:30%;
+    margin:auto;
+}
+
+#updateImageForm {
+    clear:left;
+}
+
+#updateForm {
+    float:right;
+    margin-right:20%;
+    clear:both;
+}
+
+input {
+    display:block;
+}
+
+#picInput {
+    margin-left: 10%;
+}
+
+#changePassword {
+    float:right;
+    clear:both;
+    margin-right:20%;
+}
+
+h2 {
+    clear:right;
+    text-align:center;
+}
+
+#email {
+    float:right;
+    margin-right:20%;
+}

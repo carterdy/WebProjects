@@ -1,0 +1,62 @@
+
+body {
+	
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+	
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+	background-color: white;
+	margin-bottom: 50px;
+	width: 1000px;
+	border-radius: 25px;
+	border: thin solid black;
+}
+
+#content {
+	
+	width: 1000px;
+	display: inline-block;
+	margin: auto;
+	border: thin solid black;
+}
+
+h3 {
+
+	text-align: justify;
+}
+
+h2 {
+
+	text-align: center;
+}
+
+nav {
+
+	text-align: justify;
+	width: 250px;
+	border: thin solid black;
+	float: left;
+}
+
+side {
+
+	width: 250px;
+	border: thin solid black;
+	float: right;	
+}
+
+footer {
+	
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+	margin-top: 100px;
+	width: 1000px;
+	border-radius: 25px;
+	border: thin solid black;
+}

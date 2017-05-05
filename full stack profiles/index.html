@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="jquery-2.1.4.js"></script>
+        <script src="client.js"></script>
+        <link href="login.css" type="text/css" rel="stylesheet" />
+        <title>Assignment 4</title>
+    </head>
+    <body>
+    	<h1>Login or create an account</h1>
+    	<div>
+    		<button id="loginButton" type="button">Log in</button>
+            <button id="createAccountButton" type="button">Create Account</button>
+            <form id="loginForm" action="\login" method="post">
+                Email: <input type="text" name="username">
+                Password: <input type="password" name="password">
+                <button id="loginSubmitButton" type="button" >Enter</button>
+            </form>
+            <form id="createAccountForm" action="\createaccount" method="post">
+                Email: <input type="text" name="username">
+                Password: <input type="password" name="password">
+                Confirm password: <input type="password" name="confirmPassword">
+                <button id="createSubmitButton" type="button" >Enter</button>
+            </form>
+    	</div>
+        <div id="result">
+        </div>
+    </body>
+</html>

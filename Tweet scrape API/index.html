@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="jquery-2.1.4.js"></script>
+        <script src="client.js"></script>
+        <title>Assignment 3</title>
+    </head>
+    <body>
+        <h1>API functions</h1>
+        <div id="getTweets" >
+            <h3>Get all tweets</h3>
+            <button id="getTweetsButton" type="button">Get all tweets</button>
+        </div>
+        <div id="getUsers">
+            <h3>Get all users</h3>
+            <button id="getUsersButton" type="button">Get all users</button>
+        </div>
+        <div id="getLinks">
+            <h3>Get all links</h3>
+            <button id="getLinksButton" type="button">Get all links</button>
+        </div>
+        <div id="getTweetDetail">
+            <h3>Get Tweet details</h3>
+            <form id="tweetDetailForm" action="/api/tweetdetail" method="get">
+                Tweet ID: <br>
+                <input type="text" name="tweetID">
+            </form>
+            <button id="getTweetDetailButton" type="button">Get Tweet detail</button>
+        </div>
+        <div id="getUserDetail">
+            <h3>Get user details</h3>
+            <form id="userDetailForm" action="/api/userdetail" method="get">
+                User ID: <br>
+                <input type="text" name="userID">
+            </form>
+            <button id="getUserDetailButton" type="button">Get user detail</button>
+        </div>
+        <div id="mostFollowers">
+            <h3>Get the user with the most followers</h3>
+            <button id="mostFollowersButton" type="button">Most popular user!</button>
+        </div>
+    </body>
+</html>

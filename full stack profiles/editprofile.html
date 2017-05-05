@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="jquery-2.1.4.js"></script>
+        <script src="editprofile.js"></script>
+        <link href="main.css" type="text/css" rel="stylesheet" />
+        <title>Assignment 4</title>
+    </head>
+    <body>
+        <div id="topBar">
+            <img id="home" src="home.png" alt="Home" style="width:64px;height:64px">
+            <div id="userBar">
+                <img id="profilePic" src="default.png" alt="Display Picture" style="width:64px;height:64px">
+                <h4></h4>
+            </div>
+        </div>
+    	<div id="bodyContent">
+            <h2>Edit Profile</h2>
+            <div id="imageDiv">
+                <img id="userPic" src="default.png" alt="Display Picture" style="width:128px;height:128px">
+                <form id="updateImageForm" action="api/updateuserpic" method="post">
+                    <input id="picInput" type="text" name="picString" value ="">
+                    <button id="updateImageButton" type="button">Update Display Picture</button>
+                </form>
+            </div>
+            <div id="email">Email: </div>
+            <form id="updateForm" action="api/updateuserinfo" method="post">
+                Display name: <input id="nameInput" type="text" name="displayName" value="">
+                Description: <input id="descriptionInput" type="text" name="description" value="">
+                <button id="updateFormButton" type="button">Update</button>
+            </form>
+            <h2>Change password</h2>
+            <form id="changePassword" action="api/changepassword" method="post">
+                Old Password: <input type="password" name="oldPassword">
+                New Password: <input type="password" name="newPassword">
+                Confirm Password: <input type="password" name="confirmPassword">
+                <button id="updatePasswordButton" type="button">Change Password</button>
+            </form>
+    	</div>
+    </body>
+</html>
